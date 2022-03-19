@@ -1,0 +1,2257 @@
+[ INFO] 2017-02-10 10:17:36,014 [] [] FTP server started
+[ INFO] 2017-02-10 10:18:10,158 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:18:10,210 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:18:10,221 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:18:10,222 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:18:10,226 [] [0:0:0:0:0:0:0:1] RECEIVED: HEAD / HTTP/1.1
+[ INFO] 2017-02-10 10:18:10,226 [] [0:0:0:0:0:0:0:1] RECEIVED: GET / HTTP/1.1
+[ INFO] 2017-02-10 10:18:10,227 [] [0:0:0:0:0:0:0:1] RECEIVED: Host: localhost:21
+[ INFO] 2017-02-10 10:18:10,227 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Language: en-us,en;q=0.5
+[ INFO] 2017-02-10 10:18:10,228 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Encoding: gzip, deflate
+[ INFO] 2017-02-10 10:18:10,230 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ INFO] 2017-02-10 10:18:10,230 [] [0:0:0:0:0:0:0:1] RECEIVED: Host: localhost:21
+[ INFO] 2017-02-10 10:18:10,230 [] [0:0:0:0:0:0:0:1] RECEIVED: User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/44.0 (Chrome)
+[ INFO] 2017-02-10 10:18:10,230 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] RECEIVED: Connection: close
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Language: en-us,en;q=0.5
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] RECEIVED: 
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Encoding: *
+[ INFO] 2017-02-10 10:18:10,231 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ INFO] 2017-02-10 10:18:10,232 [] [0:0:0:0:0:0:0:1] RECEIVED: User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/44.0 (Chrome)
+[ INFO] 2017-02-10 10:18:10,232 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:18:10,232 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+[ INFO] 2017-02-10 10:18:10,232 [] [0:0:0:0:0:0:0:1] RECEIVED: Connection: close
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] RECEIVED: 
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,233 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,234 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,234 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,234 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:18:10,234 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ WARN] 2017-02-10 10:18:10,238 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2017-02-10 10:18:10,240 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ INFO] 2017-02-10 10:18:10,240 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:18:24,467 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:18:24,468 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:18:24,469 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:18:24,473 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:18:24,473 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:18:24,474 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:18:24,476 [anonymous] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:18:24,978 [anonymous] [0:0:0:0:0:0:0:1] Login failure - anonymous
+[ INFO] 2017-02-10 10:18:24,980 [anonymous] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:18:24,980 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:18:24,980 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:18:24,981 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:18:24,982 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:18:31,475 [] [0:0:0:0:0:0:0:1] RECEIVED: USER h
+[ INFO] 2017-02-10 10:18:31,476 [h] [0:0:0:0:0:0:0:1] SENT: 331 User name okay, need password for h.
+
+[ INFO] 2017-02-10 10:18:31,509 [h] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:18:31,509 [h] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:18:32,009 [h] [0:0:0:0:0:0:0:1] Login failure - h
+[ INFO] 2017-02-10 10:18:32,010 [h] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:18:32,012 [h] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:22:18,612 [] [] FTP server started
+[ INFO] 2017-02-10 10:22:49,865 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:22:49,916 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:22:49,931 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:22:49,933 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:22:49,934 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:22:49,935 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:22:49,936 [anonymous] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:22:50,451 [anonymous] [0:0:0:0:0:0:0:1] Login failure - anonymous
+[ INFO] 2017-02-10 10:22:50,451 [anonymous] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:22:50,451 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:22:50,451 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:22:50,467 [anonymous] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:22:50,467 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:22:57,974 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: USER brette
+[ INFO] 2017-02-10 10:22:57,974 [brette] [0:0:0:0:0:0:0:1] SENT: 331 User name okay, need password for brette.
+
+[ INFO] 2017-02-10 10:22:58,005 [brette] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:22:58,005 [brette] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:22:58,508 [brette] [0:0:0:0:0:0:0:1] Login failure - brette
+[ INFO] 2017-02-10 10:22:58,508 [brette] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:22:58,508 [brette] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:28:29,798 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:28:29,798 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: HEAD / HTTP/1.1
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Host: localhost:21
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Language: en-us,en;q=0.5
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Encoding: gzip, deflate
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/44.0 (Chrome)
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Connection: close
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: 
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: GET / HTTP/1.1
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Host: localhost:21
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Language: en-us,en;q=0.5
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Encoding: *
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/44.0 (Chrome)
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: Connection: close
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] RECEIVED: 
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ INFO] 2017-02-10 10:28:29,814 [] [0:0:0:0:0:0:0:1] SENT: 530 Access denied.
+
+[ WARN] 2017-02-10 10:28:29,830 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2017-02-10 10:28:29,830 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ INFO] 2017-02-10 10:28:29,830 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:28:53,610 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:28:53,610 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:28:53,610 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:28:53,610 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:28:53,610 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:28:53,610 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:28:53,610 [anonymous] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:28:54,110 [anonymous] [0:0:0:0:0:0:0:1] Login failure - anonymous
+[ INFO] 2017-02-10 10:28:54,110 [anonymous] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:28:54,110 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:28:54,110 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:28:54,110 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:28:54,110 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:28:57,553 [] [0:0:0:0:0:0:0:1] RECEIVED: USER gs
+[ INFO] 2017-02-10 10:28:57,553 [gs] [0:0:0:0:0:0:0:1] SENT: 331 User name okay, need password for gs.
+
+[ INFO] 2017-02-10 10:28:59,075 [gs] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:28:59,075 [gs] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:28:59,590 [gs] [0:0:0:0:0:0:0:1] Login failure - gs
+[ INFO] 2017-02-10 10:28:59,590 [gs] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:28:59,590 [gs] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:29:36,831 [] [] FTP server started
+[ INFO] 2017-02-10 10:29:41,167 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:29:41,214 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:29:41,214 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:29:41,214 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:29:41,230 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:29:41,230 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ WARN] 2017-02-10 10:29:41,230 [anonymous] [0:0:0:0:0:0:0:1] User failed to log in
+[ WARN] 2017-02-10 10:29:41,739 [anonymous] [0:0:0:0:0:0:0:1] Login failure - anonymous
+[ INFO] 2017-02-10 10:29:41,739 [anonymous] [0:0:0:0:0:0:0:1] SENT: 530 Authentication failed.
+
+[ INFO] 2017-02-10 10:29:41,739 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:29:41,739 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:29:41,754 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:29:41,754 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:29:57,828 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 10:51:17,498 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@deb6432: display name [org.springframework.context.support.FileSystemXmlApplicationContext@deb6432]; startup date [Fri Feb 10 10:51:17 CET 2017]; root of context hierarchy
+[ INFO] 2017-02-10 10:51:17,561 [] [] Loading XML bean definitions from file [C:\Users\brette\Desktop\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2017-02-10 10:51:19,045 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@deb6432]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2d3fcdbd
+[ INFO] 2017-02-10 10:51:19,061 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d3fcdbd: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2017-02-10 10:51:19,217 [] [] FTP server started
+[ INFO] 2017-02-10 10:51:37,523 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 10:51:37,539 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 10:51:37,552 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:51:37,554 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:51:37,556 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:51:37,557 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2017-02-10 10:51:37,562 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - mozilla@example.com
+[ INFO] 2017-02-10 10:51:37,562 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2017-02-10 10:51:37,565 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SYST
+[ INFO] 2017-02-10 10:51:37,566 [anonymous] [0:0:0:0:0:0:0:1] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2017-02-10 10:51:37,569 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: FEAT
+[ INFO] 2017-02-10 10:51:37,569 [anonymous] [0:0:0:0:0:0:0:1] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2017-02-10 10:51:37,570 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2017-02-10 10:51:37,570 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2017-02-10 10:51:37,571 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2017-02-10 10:51:37,573 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2017-02-10 10:51:37,574 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2017-02-10 10:51:37,575 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2017-02-10 10:51:37,575 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:51:37,578 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2699|)
+
+[ INFO] 2017-02-10 10:51:37,581 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /
+[ INFO] 2017-02-10 10:51:37,582 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2017-02-10 10:51:37,582 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2017-02-10 10:51:37,590 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2699
+[ INFO] 2017-02-10 10:51:37,590 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:51:37,590 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2703|)
+
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /../
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2703
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:51:49,344 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2017-02-10 10:51:59,551 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:51:59,551 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2705|)
+
+[ INFO] 2017-02-10 10:51:59,551 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /../../
+[ INFO] 2017-02-10 10:51:59,551 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2017-02-10 10:51:59,566 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2017-02-10 10:51:59,566 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2705
+[ INFO] 2017-02-10 10:51:59,566 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:51:59,566 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2707|)
+
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /../../README.txt
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 28
+
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /../../README.txt
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20161024110422.000
+
+[ INFO] 2017-02-10 10:52:04,919 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /../../README.txt
+[ INFO] 2017-02-10 10:52:04,981 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /README.txt
+[ WARN] 2017-02-10 10:52:04,981 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2707
+[ INFO] 2017-02-10 10:52:04,981 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:52:04,981 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2709|)
+
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2709
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:52:21,015 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2017-02-10 10:52:36,389 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:52:36,390 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2712|)
+
+[ INFO] 2017-02-10 10:52:36,391 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /README.txt
+[ INFO] 2017-02-10 10:52:36,391 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 28
+
+[ INFO] 2017-02-10 10:52:36,392 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /README.txt
+[ INFO] 2017-02-10 10:52:36,392 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20161024110422.000
+
+[ INFO] 2017-02-10 10:52:36,392 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /README.txt
+[ INFO] 2017-02-10 10:52:36,443 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /README.txt
+[ WARN] 2017-02-10 10:52:36,444 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2712
+[ INFO] 2017-02-10 10:52:36,444 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:52:36,444 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2714|)
+
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /README.txt
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 28
+
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /README.txt
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20161024110422.000
+
+[ INFO] 2017-02-10 10:52:42,175 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /README.txt
+[ INFO] 2017-02-10 10:52:42,238 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /README.txt
+[ WARN] 2017-02-10 10:52:42,238 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2714
+[ INFO] 2017-02-10 10:52:42,238 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:52:42,238 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2726|)
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /brette
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 /brette: Not a plain file.
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /brette
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20170210095356.712
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /brette
+[ WARN] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2726
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 /brette: Not a plain file.
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2728|)
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /brette
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /brette
+
+[ INFO] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2017-02-10 10:54:38,511 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2728
+[ INFO] 2017-02-10 10:54:38,527 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:54:38,527 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2017-02-10 10:54:41,421 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:54:41,421 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2730|)
+
+[ INFO] 2017-02-10 10:54:41,437 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /brette/README.txt
+[ INFO] 2017-02-10 10:54:41,437 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 11
+
+[ INFO] 2017-02-10 10:54:41,437 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /brette/README.txt
+[ INFO] 2017-02-10 10:54:41,437 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20170210095429.067
+
+[ INFO] 2017-02-10 10:54:41,437 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /brette/README.txt
+[ INFO] 2017-02-10 10:54:41,499 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /brette/README.txt
+[ WARN] 2017-02-10 10:54:41,499 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2730
+[ INFO] 2017-02-10 10:54:41,499 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:54:41,499 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||2732|)
+
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /brette/readme.txt
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 11
+
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /brette/readme.txt
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20170210095429.067
+
+[ INFO] 2017-02-10 10:54:52,810 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /brette/readme.txt
+[ INFO] 2017-02-10 10:54:52,888 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /brette/readme.txt
+[ WARN] 2017-02-10 10:54:52,888 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 2732
+[ INFO] 2017-02-10 10:54:52,888 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:54:52,888 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:58:18,617 [] [172.19.35.38] CREATED
+[ INFO] 2017-02-10 10:58:18,617 [] [172.19.35.38] OPENED
+[ INFO] 2017-02-10 10:58:18,617 [] [172.19.35.38] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 10:58:18,617 [] [172.19.35.38] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: PASS *****
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] Anonymous login success - mozilla@example.com
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 230 User logged in, proceed.
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: SYST
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: FEAT
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: OPTS UTF8 ON
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 200 Command OPTS okay.
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: PWD
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 257 "/" is current directory.
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: TYPE I
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 200 Command TYPE okay.
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: PASV
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 227 Entering Passive Mode (172,19,34,124,10,215)
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: SIZE /brette/readme.txt
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 213 11
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: MDTM /brette/readme.txt
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] SENT: 213 20170210095429.067
+
+[ INFO] 2017-02-10 10:58:18,617 [anonymous] [172.19.35.38] RECEIVED: RETR /brette/readme.txt
+[ INFO] 2017-02-10 10:58:18,680 [anonymous] [172.19.35.38] File downloaded /brette/readme.txt
+[ WARN] 2017-02-10 10:58:18,680 [anonymous] [172.19.35.38] Releasing unreserved passive port: 2775
+[ INFO] 2017-02-10 10:58:18,680 [anonymous] [172.19.35.38] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 10:58:18,680 [anonymous] [172.19.35.38] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 10:58:26,274 [anonymous] [172.19.35.38] CLOSED
+[ INFO] 2017-02-10 10:59:52,911 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2017-02-10 11:52:13,155 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@deb6432: display name [org.springframework.context.support.FileSystemXmlApplicationContext@deb6432]; startup date [Fri Feb 10 11:52:13 CET 2017]; root of context hierarchy
+[ INFO] 2017-02-10 11:52:13,187 [] [] Loading XML bean definitions from file [C:\Users\brette\Desktop\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2017-02-10 11:52:13,405 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@deb6432]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2d3fcdbd
+[ INFO] 2017-02-10 11:52:13,405 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d3fcdbd: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2017-02-10 11:52:13,546 [] [] FTP server started
+[ INFO] 2017-02-10 11:53:21,648 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 11:53:21,648 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 11:53:21,648 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 11:53:21,648 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 11:53:21,664 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 11:53:21,664 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2017-02-10 11:53:21,669 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - mozilla@example.com
+[ INFO] 2017-02-10 11:53:21,670 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2017-02-10 11:53:21,674 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SYST
+[ INFO] 2017-02-10 11:53:21,675 [anonymous] [0:0:0:0:0:0:0:1] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2017-02-10 11:53:21,677 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: FEAT
+[ INFO] 2017-02-10 11:53:21,678 [anonymous] [0:0:0:0:0:0:0:1] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2017-02-10 11:53:21,678 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2017-02-10 11:53:21,678 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2017-02-10 11:53:21,678 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2017-02-10 11:53:21,680 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2017-02-10 11:53:21,680 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2017-02-10 11:53:21,681 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2017-02-10 11:53:21,682 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 11:53:21,685 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||3278|)
+
+[ INFO] 2017-02-10 11:53:21,689 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /brette/readme.txt
+[ INFO] 2017-02-10 11:53:21,690 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 /brette/readme.txt: No such file or directory.
+
+[ INFO] 2017-02-10 11:53:21,690 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /brette/readme.txt
+[ INFO] 2017-02-10 11:53:21,691 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 File /brette/readme.txt unavailable.
+
+[ INFO] 2017-02-10 11:53:21,691 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /brette/readme.txt
+[ WARN] 2017-02-10 11:53:21,693 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 3278
+[ INFO] 2017-02-10 11:53:21,693 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 /brette/readme.txt: No such file or directory.
+
+[ INFO] 2017-02-10 11:53:21,693 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 11:53:21,694 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||3280|)
+
+[ INFO] 2017-02-10 11:53:21,694 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /brette/readme.txt
+[ INFO] 2017-02-10 11:53:21,695 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No such directory.
+
+[ INFO] 2017-02-10 11:53:21,696 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ WARN] 2017-02-10 11:53:21,696 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 3280
+[ INFO] 2017-02-10 11:54:00,593 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2017-02-10 11:54:00,593 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2017-02-10 11:54:00,593 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2017-02-10 11:54:00,593 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2017-02-10 11:54:00,593 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - mozilla@example.com
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SYST
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: FEAT
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||3285|)
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 11
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20170210095429.067
+
+[ INFO] 2017-02-10 11:54:00,608 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:00,671 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /texte/bonjour.txt
+[ WARN] 2017-02-10 11:54:00,671 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 3285
+[ INFO] 2017-02-10 11:54:00,671 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 11:54:00,671 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||3288|)
+
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 24
+
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MDTM /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 20170210105431.255
+
+[ INFO] 2017-02-10 11:54:34,056 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /texte/bonjour.txt
+[ INFO] 2017-02-10 11:54:34,119 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /texte/bonjour.txt
+[ WARN] 2017-02-10 11:54:34,119 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 3288
+[ INFO] 2017-02-10 11:54:34,119 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2017-02-10 11:54:34,119 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2017-02-10 11:59:34,129 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:08:28,805 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Tue Feb 08 10:08:28 CET 2022]; root of context hierarchy
+[ INFO] 2022-02-08 10:08:28,889 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-02-08 10:08:30,663 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1
+[ INFO] 2022-02-08 10:08:30,683 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-02-08 10:08:30,943 [] [] FTP server started
+[ INFO] 2022-02-08 10:11:13,634 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:11:13,642 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:11:13,655 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:11:13,657 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-08 10:11:13,661 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-08 10:11:13,661 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-08 10:11:13,667 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - IEUser@
+[ INFO] 2022-02-08 10:11:13,668 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-08 10:11:13,669 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /
+[ INFO] 2022-02-08 10:11:13,673 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2022-02-08 10:11:13,674 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE A
+[ INFO] 2022-02-08 10:11:13,676 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:11:13,676 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:11:13,681 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||53562|)
+
+[ INFO] 2022-02-08 10:11:13,681 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2022-02-08 10:11:13,695 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 53562
+[ INFO] 2022-02-08 10:11:13,695 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:11:13,695 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:11:19,585 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-08 10:11:19,586 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:11:19,587 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:11:19,589 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||53564|)
+
+[ INFO] 2022-02-08 10:11:19,589 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /README.txt
+[ INFO] 2022-02-08 10:11:19,591 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 28
+
+[ INFO] 2022-02-08 10:11:19,592 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /README.txt
+[ INFO] 2022-02-08 10:11:19,650 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /README.txt
+[ WARN] 2022-02-08 10:11:19,651 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 53564
+[ INFO] 2022-02-08 10:11:19,651 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:11:19,651 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ WARN] 2022-02-08 10:11:23,336 [anonymous] [0:0:0:0:0:0:0:1] EXCEPTION :
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2022-02-08 10:11:23,341 [anonymous] [0:0:0:0:0:0:0:1] Exception caught, closing session
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:317)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:683)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ INFO] 2022-02-08 10:11:23,342 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:11:41,261 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:11:41,261 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:11:41,263 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:11:41,263 [] [0:0:0:0:0:0:0:1] RECEIVED: AUTH TLS
+[ WARN] 2022-02-08 10:11:41,491 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+javax.net.ssl.SSLException: Improper close state: Status = OK HandshakeStatus = NEED_WRAP
+bytesConsumed = 0 bytesProduced = 160
+	at org.apache.mina.filter.ssl.SslHandler.closeOutbound(SslHandler.java:500)
+	at org.apache.mina.filter.ssl.SslFilter.initiateClosure(SslFilter.java:742)
+	at org.apache.mina.filter.ssl.SslFilter.filterClose(SslFilter.java:677)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.filter.executor.ExecutorFilter.filterClose(ExecutorFilter.java:624)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.filterClose(DefaultIoFilterChain.java:886)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireFilterClose(DefaultIoFilterChain.java:641)
+	at org.apache.mina.core.session.AbstractIoSession.closeNow(AbstractIoSession.java:357)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:524)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2022-02-08 10:11:41,494 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+javax.net.ssl.SSLException: Improper close state: Status = OK HandshakeStatus = NEED_WRAP
+bytesConsumed = 0 bytesProduced = 160
+	at org.apache.mina.filter.ssl.SslHandler.closeOutbound(SslHandler.java:500)
+	at org.apache.mina.filter.ssl.SslFilter.initiateClosure(SslFilter.java:742)
+	at org.apache.mina.filter.ssl.SslFilter.filterClose(SslFilter.java:677)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.filter.executor.ExecutorFilter.filterClose(ExecutorFilter.java:624)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.filterClose(DefaultIoFilterChain.java:886)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireFilterClose(DefaultIoFilterChain.java:641)
+	at org.apache.mina.core.session.AbstractIoSession.closeNow(AbstractIoSession.java:357)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:524)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ WARN] 2022-02-08 10:11:41,496 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+javax.net.ssl.SSLHandshakeException: SSL handshake failed.
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:519)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: No available authentication scheme
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.onProduceCertificate(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.produce(Unknown Source)
+	at sun.security.ssl.SSLHandshake.produce(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.goServerHello(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source)
+	at org.apache.mina.filter.ssl.SslHandler.doTasks(SslHandler.java:793)
+	at org.apache.mina.filter.ssl.SslHandler.handshake(SslHandler.java:567)
+	at org.apache.mina.filter.ssl.SslHandler.messageReceived(SslHandler.java:360)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:500)
+	... 15 more
+[ERROR] 2022-02-08 10:11:41,498 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+javax.net.ssl.SSLHandshakeException: SSL handshake failed.
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:519)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: No available authentication scheme
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.onProduceCertificate(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.produce(Unknown Source)
+	at sun.security.ssl.SSLHandshake.produce(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.goServerHello(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source)
+	at org.apache.mina.filter.ssl.SslHandler.doTasks(SslHandler.java:793)
+	at org.apache.mina.filter.ssl.SslHandler.handshake(SslHandler.java:567)
+	at org.apache.mina.filter.ssl.SslHandler.messageReceived(SslHandler.java:360)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:500)
+	... 15 more
+[ INFO] 2022-02-08 10:11:41,524 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:12:51,211 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:12:51,212 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:12:51,223 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:12:51,223 [] [0:0:0:0:0:0:0:1] RECEIVED: AUTH TLS
+[ WARN] 2022-02-08 10:12:51,255 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+javax.net.ssl.SSLException: Improper close state: Status = OK HandshakeStatus = NEED_WRAP
+bytesConsumed = 0 bytesProduced = 160
+	at org.apache.mina.filter.ssl.SslHandler.closeOutbound(SslHandler.java:500)
+	at org.apache.mina.filter.ssl.SslFilter.initiateClosure(SslFilter.java:742)
+	at org.apache.mina.filter.ssl.SslFilter.filterClose(SslFilter.java:677)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.filter.executor.ExecutorFilter.filterClose(ExecutorFilter.java:624)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.filterClose(DefaultIoFilterChain.java:886)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireFilterClose(DefaultIoFilterChain.java:641)
+	at org.apache.mina.core.session.AbstractIoSession.closeNow(AbstractIoSession.java:357)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:524)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2022-02-08 10:12:51,256 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+javax.net.ssl.SSLException: Improper close state: Status = OK HandshakeStatus = NEED_WRAP
+bytesConsumed = 0 bytesProduced = 160
+	at org.apache.mina.filter.ssl.SslHandler.closeOutbound(SslHandler.java:500)
+	at org.apache.mina.filter.ssl.SslFilter.initiateClosure(SslFilter.java:742)
+	at org.apache.mina.filter.ssl.SslFilter.filterClose(SslFilter.java:677)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.filter.executor.ExecutorFilter.filterClose(ExecutorFilter.java:624)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:88)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.filterClose(CommonEventFilter.java:85)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(IoFilterAdapter.java:130)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1600(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterClose(DefaultIoFilterChain.java:962)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.filterClose(DefaultIoFilterChain.java:886)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterClose(DefaultIoFilterChain.java:648)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireFilterClose(DefaultIoFilterChain.java:641)
+	at org.apache.mina.core.session.AbstractIoSession.closeNow(AbstractIoSession.java:357)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:524)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ WARN] 2022-02-08 10:12:51,258 [] [0:0:0:0:0:0:0:1] EXCEPTION :
+javax.net.ssl.SSLHandshakeException: SSL handshake failed.
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:519)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: No available authentication scheme
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.onProduceCertificate(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.produce(Unknown Source)
+	at sun.security.ssl.SSLHandshake.produce(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.goServerHello(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source)
+	at org.apache.mina.filter.ssl.SslHandler.doTasks(SslHandler.java:793)
+	at org.apache.mina.filter.ssl.SslHandler.handshake(SslHandler.java:567)
+	at org.apache.mina.filter.ssl.SslHandler.messageReceived(SslHandler.java:360)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:500)
+	... 15 more
+[ERROR] 2022-02-08 10:12:51,259 [] [0:0:0:0:0:0:0:1] Exception caught, closing session
+javax.net.ssl.SSLHandshakeException: SSL handshake failed.
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:519)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.net.ssl.SSLHandshakeException: No available authentication scheme
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.onProduceCertificate(Unknown Source)
+	at sun.security.ssl.CertificateMessage$T13CertificateProducer.produce(Unknown Source)
+	at sun.security.ssl.SSLHandshake.produce(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.goServerHello(Unknown Source)
+	at sun.security.ssl.ClientHello$T13ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(Unknown Source)
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.consume(Unknown Source)
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source)
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source)
+	at org.apache.mina.filter.ssl.SslHandler.doTasks(SslHandler.java:793)
+	at org.apache.mina.filter.ssl.SslHandler.handshake(SslHandler.java:567)
+	at org.apache.mina.filter.ssl.SslHandler.messageReceived(SslHandler.java:360)
+	at org.apache.mina.filter.ssl.SslFilter.messageReceived(SslFilter.java:500)
+	... 15 more
+[ INFO] 2022-02-08 10:12:51,260 [] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:15:47,484 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:15:47,485 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:15:47,486 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:15:47,487 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-08 10:15:47,497 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-08 10:15:47,498 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-08 10:15:47,498 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - IEUser@
+[ INFO] 2022-02-08 10:15:47,499 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-08 10:15:47,499 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /texte/
+[ INFO] 2022-02-08 10:15:47,500 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /texte
+
+[ INFO] 2022-02-08 10:15:47,500 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE A
+[ INFO] 2022-02-08 10:15:47,501 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:15:47,501 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:15:47,502 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||53671|)
+
+[ INFO] 2022-02-08 10:15:47,502 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2022-02-08 10:15:47,505 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 53671
+[ INFO] 2022-02-08 10:15:47,505 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:15:47,505 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:15:52,413 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-08 10:15:52,414 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:15:52,415 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:15:52,416 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||53673|)
+
+[ INFO] 2022-02-08 10:15:52,417 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /texte/bonjour.txt
+[ INFO] 2022-02-08 10:15:52,418 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 24
+
+[ INFO] 2022-02-08 10:15:52,419 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /texte/bonjour.txt
+[ INFO] 2022-02-08 10:15:52,482 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /texte/bonjour.txt
+[ WARN] 2022-02-08 10:15:52,482 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 53673
+[ INFO] 2022-02-08 10:15:52,483 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:15:52,483 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-02-08 10:16:39,865 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:16:39,865 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:16:39,866 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:16:41,276 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-08 10:16:41,277 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-08 10:16:41,277 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-08 10:16:41,277 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - anonymous@example.com
+[ INFO] 2022-02-08 10:16:41,278 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-08 10:16:41,278 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SYST
+[ INFO] 2022-02-08 10:16:41,279 [anonymous] [0:0:0:0:0:0:0:1] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2022-02-08 10:16:41,279 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: FEAT
+[ INFO] 2022-02-08 10:16:41,280 [anonymous] [0:0:0:0:0:0:0:1] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2022-02-08 10:16:41,280 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2022-02-08 10:16:41,280 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:16:41,280 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS MLST size;modify;type;
+[ INFO] 2022-02-08 10:16:41,281 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:16:41,284 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:16:41,285 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:16:41,286 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-08 10:16:41,287 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:16:41,287 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:16:41,288 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||53683|)
+
+[ INFO] 2022-02-08 10:16:41,289 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-08 10:16:41,291 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 53683
+[ INFO] 2022-02-08 10:16:41,292 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:16:41,292 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:20:52,781 [anonymous] [0:0:0:0:0:0:0:1] IDLE
+[ INFO] 2022-02-08 10:20:52,781 [anonymous] [0:0:0:0:0:0:0:1] Session idle, closing
+[ INFO] 2022-02-08 10:20:52,782 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:21:33,952 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD classes
+[ INFO] 2022-02-08 10:21:33,953 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /classes.
+
+[ INFO] 2022-02-08 10:21:39,549 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:21:39,550 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49311|)
+
+[ INFO] 2022-02-08 10:21:39,550 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-08 10:21:39,552 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49311
+[ INFO] 2022-02-08 10:21:39,552 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:21:39,552 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:21:46,285 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD classes
+[ INFO] 2022-02-08 10:21:46,286 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /classes.
+
+[ INFO] 2022-02-08 10:21:46,292 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /classes
+[ INFO] 2022-02-08 10:21:46,293 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No such directory.
+
+[ INFO] 2022-02-08 10:21:54,136 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /
+[ INFO] 2022-02-08 10:21:54,137 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /
+
+[ INFO] 2022-02-08 10:21:54,137 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:21:54,137 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:21:54,138 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CDUP
+[ INFO] 2022-02-08 10:21:54,138 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /.
+
+[ INFO] 2022-02-08 10:21:54,139 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:21:54,139 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:22:10,543 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:22:10,544 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49313|)
+
+[ INFO] 2022-02-08 10:22:10,544 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-08 10:22:10,547 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49313
+[ INFO] 2022-02-08 10:22:10,547 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:22:10,547 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:22:20,206 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD texte
+[ INFO] 2022-02-08 10:22:20,206 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /texte
+
+[ INFO] 2022-02-08 10:22:20,207 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:22:20,207 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/texte" is current directory.
+
+[ INFO] 2022-02-08 10:22:20,208 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:22:20,208 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49315|)
+
+[ INFO] 2022-02-08 10:22:20,209 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-08 10:22:20,211 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49315
+[ INFO] 2022-02-08 10:22:20,211 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:22:20,211 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:22:25,536 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD classes
+[ INFO] 2022-02-08 10:22:25,536 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /texte/classes.
+
+[ INFO] 2022-02-08 10:22:43,921 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD Nouveau dossier
+[ INFO] 2022-02-08 10:22:43,921 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /texte/Nouveau dossier.
+
+[ INFO] 2022-02-08 10:22:49,250 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CDUP
+[ INFO] 2022-02-08 10:22:49,250 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /.
+
+[ INFO] 2022-02-08 10:22:49,251 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:22:49,251 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:22:56,738 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD classes
+[ INFO] 2022-02-08 10:22:56,739 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /classes.
+
+[ INFO] 2022-02-08 10:23:20,706 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:25:43,025 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Tue Feb 08 10:25:43 CET 2022]; root of context hierarchy
+[ INFO] 2022-02-08 10:25:43,082 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-02-08 10:25:44,230 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1
+[ INFO] 2022-02-08 10:25:44,244 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-02-08 10:25:44,403 [] [] FTP server started
+[ INFO] 2022-02-08 10:25:56,191 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:25:56,195 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:25:56,205 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:25:56,207 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-08 10:25:56,210 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-08 10:25:56,210 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-08 10:25:56,213 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - anonymous@example.com
+[ INFO] 2022-02-08 10:25:56,214 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-08 10:25:56,214 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2022-02-08 10:25:56,215 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:25:56,216 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS MLST size;modify;type;
+[ INFO] 2022-02-08 10:25:56,217 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:25:56,220 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:25:56,223 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:26:25,308 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD classes
+[ INFO] 2022-02-08 10:26:25,311 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /classes.
+
+[ INFO] 2022-02-08 10:28:07,102 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-08 10:34:59,045 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Tue Feb 08 10:34:59 CET 2022]; root of context hierarchy
+[ INFO] 2022-02-08 10:34:59,102 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-02-08 10:35:00,267 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1
+[ INFO] 2022-02-08 10:35:00,281 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-02-08 10:35:00,448 [] [] FTP server started
+[ INFO] 2022-02-08 10:35:08,192 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-08 10:35:08,196 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-08 10:35:08,207 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-08 10:35:08,211 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-08 10:35:08,214 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-08 10:35:08,214 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-08 10:35:08,218 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - anonymous@example.com
+[ INFO] 2022-02-08 10:35:08,219 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-08 10:35:08,219 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2022-02-08 10:35:08,220 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:35:08,221 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS MLST size;modify;type;
+[ INFO] 2022-02-08 10:35:08,222 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-08 10:35:08,226 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-08 10:35:08,229 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-08 10:35:08,231 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-08 10:35:08,232 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-08 10:35:08,233 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-08 10:35:08,236 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49406|)
+
+[ INFO] 2022-02-08 10:35:08,236 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-08 10:35:08,246 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49406
+[ INFO] 2022-02-08 10:35:08,246 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-08 10:35:08,246 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-08 10:40:08,523 [anonymous] [0:0:0:0:0:0:0:1] IDLE
+[ INFO] 2022-02-08 10:40:08,524 [anonymous] [0:0:0:0:0:0:0:1] Session idle, closing
+[ INFO] 2022-02-08 10:40:08,525 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-22 10:51:58,315 [] [] FTP server started
+[ INFO] 2022-02-22 10:53:08,569 [] [] FTP server started
+[ INFO] 2022-02-22 11:05:20,891 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Tue Feb 22 11:05:20 CET 2022]; root of context hierarchy
+[ INFO] 2022-02-22 11:05:20,950 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-02-22 11:05:22,234 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1
+[ INFO] 2022-02-22 11:05:22,249 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-02-22 11:05:22,414 [] [] FTP server started
+[ INFO] 2022-02-22 11:05:29,174 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-22 11:05:29,181 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-22 11:05:29,191 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-22 11:05:30,615 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-22 11:05:30,617 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-22 11:05:30,617 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-22 11:05:30,622 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - anonymous@example.com
+[ INFO] 2022-02-22 11:05:30,622 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-22 11:05:30,622 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SYST
+[ INFO] 2022-02-22 11:05:30,623 [anonymous] [0:0:0:0:0:0:0:1] SENT: 215 UNIX Type: Apache FtpServer
+
+[ INFO] 2022-02-22 11:05:30,624 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: FEAT
+[ INFO] 2022-02-22 11:05:30,625 [anonymous] [0:0:0:0:0:0:0:1] SENT: 211-Extensions supported
+ SIZE
+ MDTM
+ REST STREAM
+ LANG en;zh-tw;ja;is
+ MLST Size;Modify;Type;Perm
+ AUTH SSL
+ AUTH TLS
+ MODE Z
+ UTF8
+ TVFS
+ MD5
+ MMD5
+ MFMT
+211 End
+
+[ INFO] 2022-02-22 11:05:30,625 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2022-02-22 11:05:30,625 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-22 11:05:30,627 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS MLST size;modify;type;
+[ INFO] 2022-02-22 11:05:30,628 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-22 11:05:30,633 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-22 11:05:30,635 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-22 11:05:30,637 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-22 11:05:30,638 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-22 11:05:30,638 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-22 11:05:30,641 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49678|)
+
+[ INFO] 2022-02-22 11:05:30,642 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-22 11:05:30,651 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49678
+[ INFO] 2022-02-22 11:05:30,651 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-22 11:05:30,651 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-22 11:06:43,750 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD classes
+[ INFO] 2022-02-22 11:06:43,752 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /classes
+
+[ INFO] 2022-02-22 11:06:43,752 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-22 11:06:43,753 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/classes" is current directory.
+
+[ INFO] 2022-02-22 11:06:43,753 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-22 11:06:43,754 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||49706|)
+
+[ INFO] 2022-02-22 11:06:43,754 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-22 11:06:43,756 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 49706
+[ INFO] 2022-02-22 11:06:43,756 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-22 11:06:43,756 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-22 11:11:44,522 [anonymous] [0:0:0:0:0:0:0:1] IDLE
+[ INFO] 2022-02-22 11:11:44,522 [anonymous] [0:0:0:0:0:0:0:1] Session idle, closing
+[ INFO] 2022-02-22 11:11:44,523 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-02-22 11:53:34,121 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-02-22 11:53:34,123 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-02-22 11:53:34,125 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-02-22 11:53:34,131 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-02-22 11:53:34,132 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-02-22 11:53:34,133 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-02-22 11:53:34,134 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - anonymous@example.com
+[ INFO] 2022-02-22 11:53:34,134 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-02-22 11:53:34,134 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS UTF8 ON
+[ INFO] 2022-02-22 11:53:34,136 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-22 11:53:34,136 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: OPTS MLST size;modify;type;
+[ INFO] 2022-02-22 11:53:34,137 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command OPTS okay.
+
+[ INFO] 2022-02-22 11:53:34,142 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PWD
+[ INFO] 2022-02-22 11:53:34,143 [anonymous] [0:0:0:0:0:0:0:1] SENT: 257 "/" is current directory.
+
+[ INFO] 2022-02-22 11:53:34,144 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-02-22 11:53:34,145 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-02-22 11:53:34,145 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-02-22 11:53:34,146 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||58973|)
+
+[ INFO] 2022-02-22 11:53:34,147 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MLSD
+[ WARN] 2022-02-22 11:53:34,153 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 58973
+[ INFO] 2022-02-22 11:53:34,153 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-02-22 11:53:34,153 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-02-22 11:53:46,385 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: MKD admin
+[ INFO] 2022-02-22 11:53:46,388 [anonymous] [0:0:0:0:0:0:0:1] SENT: 550 No permission to create /admin.
+
+[ INFO] 2022-02-22 11:58:47,069 [anonymous] [0:0:0:0:0:0:0:1] IDLE
+[ INFO] 2022-02-22 11:58:47,069 [anonymous] [0:0:0:0:0:0:0:1] Session idle, closing
+[ INFO] 2022-02-22 11:58:47,071 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-03-02 20:11:54,125 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Wed Mar 02 20:11:54 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-02 20:11:54,251 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\..\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-02 20:12:31,924 [] [] FTP server started
+[ INFO] 2022-03-02 20:13:43,184 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Wed Mar 02 20:13:43 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-02 20:13:43,305 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\..\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-02 20:15:18,465 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]; startup date [Wed Mar 02 20:15:18 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-02 20:15:18,571 [] [] Loading XML bean definitions from file [C:\Program Files (x86)\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-02 20:15:20,774 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@621be5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1
+[ INFO] 2022-03-02 20:15:20,810 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-02 20:15:21,174 [] [] FTP server started
+[ INFO] 2022-03-03 15:38:16,917 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Thu Mar 03 15:38:16 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-03 15:38:16,957 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-03 15:38:17,668 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-03 15:38:17,677 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-03 15:38:17,805 [] [] FTP server started
+[ INFO] 2022-03-04 18:22:31,713 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Fri Mar 04 18:22:31 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-04 18:22:31,851 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-04 18:22:34,380 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-04 18:22:34,401 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-04 18:22:34,713 [] [] FTP server started
+[ INFO] 2022-03-04 18:23:38,243 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-03-04 18:23:38,255 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-03-04 18:23:38,268 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-04 18:23:38,271 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-03-04 18:23:38,275 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-04 18:23:38,276 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-03-04 18:23:38,283 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - IEUser@
+[ INFO] 2022-03-04 18:23:38,284 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-04 18:23:38,284 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-03-04 18:23:38,287 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-04 18:23:38,288 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-03-04 18:23:38,292 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||61762|)
+
+[ INFO] 2022-03-04 18:23:38,293 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /texte/bonjour.txt
+[ INFO] 2022-03-04 18:23:38,297 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 24
+
+[ INFO] 2022-03-04 18:23:38,297 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /texte/bonjour.txt
+[ INFO] 2022-03-04 18:23:38,370 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /texte/bonjour.txt
+[ WARN] 2022-03-04 18:23:38,374 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 61762
+[ INFO] 2022-03-04 18:23:38,374 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-04 18:23:38,374 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-04 18:24:37,983 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-03-07 12:51:26,921 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Mon Mar 07 12:51:26 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-07 12:51:27,046 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-07 12:51:28,916 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-07 12:51:28,935 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-07 12:51:29,323 [] [] FTP server started
+[ INFO] 2022-03-07 15:53:11,519 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Mon Mar 07 15:53:11 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-07 15:53:11,577 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-07 15:53:12,394 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-07 15:53:12,412 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-07 15:53:12,608 [] [] FTP server started
+[ INFO] 2022-03-07 23:01:46,723 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Mon Mar 07 23:01:46 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-07 23:01:46,824 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-07 23:01:48,832 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-07 23:01:48,869 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-07 23:01:49,426 [] [] FTP server started
+[ INFO] 2022-03-07 23:02:23,892 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:02:23,899 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:02:23,911 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:02:23,911 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:02:23,917 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:02:23,917 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:02:23,923 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:02:23,925 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:02:23,925 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:02:23,926 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:02:23,927 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:02:23,932 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:02:23,932 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:02:23,933 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:02:23,933 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:02:23,940 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:02:23,940 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:03:59,681 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:03:59,681 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:03:59,683 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:03:59,684 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:03:59,685 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:03:59,685 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:03:59,685 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:03:59,686 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:03:59,686 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:03:59,687 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:03:59,687 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:03:59,688 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:03:59,688 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:03:59,690 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:03:59,690 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:03:59,691 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:03:59,691 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:07:20,513 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:07:20,514 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:07:20,516 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:07:20,517 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:07:20,518 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:07:20,518 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:07:20,518 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:07:20,519 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:07:20,519 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:07:20,520 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:07:20,520 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:07:20,521 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:07:20,521 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:07:20,522 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:07:20,523 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:07:20,524 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:07:20,524 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:09:44,242 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:09:44,243 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:09:44,245 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:09:44,246 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:09:44,247 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:09:44,247 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:09:44,248 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:09:44,248 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:09:44,248 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:09:44,249 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:09:44,249 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:09:44,250 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:09:44,250 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:09:44,251 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:09:44,252 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:09:44,253 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:09:44,253 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:10:41,073 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:10:41,073 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:10:41,075 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:10:41,076 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:10:41,078 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:10:41,078 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:10:41,079 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:10:41,079 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:10:41,079 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:10:41,080 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:10:41,080 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:10:41,081 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:10:41,082 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:10:41,083 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:10:41,083 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:10:41,084 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:10:41,084 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:11:34,404 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:11:34,405 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:11:34,406 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:11:34,407 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:11:34,408 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:11:34,408 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:11:34,409 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:11:34,409 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:11:34,410 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:11:34,411 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:11:34,412 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:11:34,413 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:11:34,413 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:11:34,414 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:11:34,415 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:11:34,416 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:11:34,416 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:12:05,236 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:12:05,237 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:12:05,238 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:12:05,238 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:12:05,239 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:12:05,239 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:12:05,240 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:12:05,240 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:12:05,240 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:12:05,241 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:12:05,241 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:12:05,243 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:12:05,243 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:12:05,244 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:12:05,244 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:12:05,245 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:12:05,245 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:12:43,137 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:12:43,138 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:12:43,139 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:12:43,140 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:12:43,141 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:12:43,141 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:12:43,142 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:12:43,142 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:12:43,143 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:12:43,143 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:12:43,143 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:12:43,144 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:12:43,145 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:12:43,146 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:12:43,146 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:12:43,147 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:12:43,147 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:13:11,084 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:13:11,085 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:13:11,086 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:13:11,086 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:13:11,087 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:13:11,087 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:13:11,088 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:13:11,088 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:13:11,088 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:13:11,089 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:13:11,089 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:13:11,090 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:13:11,090 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:13:11,091 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:13:11,091 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:13:11,092 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:13:11,092 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:13:43,056 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:13:43,057 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:13:43,057 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:13:43,058 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:13:43,058 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:13:43,059 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:13:43,059 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:13:43,059 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:13:43,060 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:13:43,060 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:13:43,060 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:13:43,061 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:13:43,061 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:13:43,062 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:13:43,062 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:13:43,063 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:13:43,063 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:14:16,156 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:14:16,157 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:14:16,158 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:14:16,159 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:14:16,160 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:14:16,160 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:14:16,161 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:14:16,161 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:14:16,161 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:14:16,162 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:14:16,162 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:14:16,163 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:14:16,163 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:14:16,164 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:14:16,164 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:14:16,165 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:14:16,165 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-07 23:17:41,324 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-07 23:17:41,325 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-07 23:17:41,325 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-07 23:17:41,328 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-07 23:17:41,329 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-07 23:17:41,329 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-07 23:17:41,329 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-07 23:17:41,330 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-07 23:17:41,330 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-07 23:17:41,330 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-07 23:17:41,330 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:17:41,331 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-07 23:17:41,331 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-07 23:17:41,331 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2022-03-07 23:17:41,332 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-07 23:17:41,332 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-07 23:17:41,333 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 09:42:23,905 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Tue Mar 08 09:42:23 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-08 09:42:24,026 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-08 09:42:25,527 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-08 09:42:25,545 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-08 09:42:25,935 [] [] FTP server started
+[ INFO] 2022-03-08 09:53:17,778 [] [0:0:0:0:0:0:0:1] CREATED
+[ INFO] 2022-03-08 09:53:17,786 [] [0:0:0:0:0:0:0:1] OPENED
+[ INFO] 2022-03-08 09:53:17,802 [] [0:0:0:0:0:0:0:1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 09:53:17,806 [] [0:0:0:0:0:0:0:1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 09:53:17,810 [anonymous] [0:0:0:0:0:0:0:1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 09:53:17,810 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 09:53:17,820 [anonymous] [0:0:0:0:0:0:0:1] Anonymous login success - IEUser@
+[ INFO] 2022-03-08 09:53:17,822 [anonymous] [0:0:0:0:0:0:0:1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 09:53:17,822 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 09:53:17,823 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 09:53:17,824 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-03-08 09:53:17,831 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||58298|)
+
+[ INFO] 2022-03-08 09:53:17,832 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /texte/bonjour.txt
+[ INFO] 2022-03-08 09:53:17,844 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 24
+
+[ INFO] 2022-03-08 09:53:17,844 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /texte/bonjour.txt
+[ INFO] 2022-03-08 09:53:17,912 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /texte/bonjour.txt
+[ WARN] 2022-03-08 09:53:17,917 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 58298
+[ INFO] 2022-03-08 09:53:17,918 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 09:53:17,918 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 09:53:34,688 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 09:53:34,690 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 09:53:34,690 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-03-08 09:53:34,690 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||58303|)
+
+[ INFO] 2022-03-08 09:53:34,692 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: SIZE /slim/ServiceInversion.class
+[ INFO] 2022-03-08 09:53:34,693 [anonymous] [0:0:0:0:0:0:0:1] SENT: 213 1609
+
+[ INFO] 2022-03-08 09:53:34,694 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: RETR /slim/ServiceInversion.class
+[ INFO] 2022-03-08 09:53:35,063 [anonymous] [0:0:0:0:0:0:0:1] File downloaded /slim/ServiceInversion.class
+[ WARN] 2022-03-08 09:53:35,064 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 58303
+[ INFO] 2022-03-08 09:53:35,065 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 09:53:35,065 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 09:54:41,144 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: CWD /slim/
+[ INFO] 2022-03-08 09:54:41,145 [anonymous] [0:0:0:0:0:0:0:1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 09:54:41,146 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: TYPE A
+[ INFO] 2022-03-08 09:54:41,146 [anonymous] [0:0:0:0:0:0:0:1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 09:54:41,147 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: EPSV
+[ INFO] 2022-03-08 09:54:41,147 [anonymous] [0:0:0:0:0:0:0:1] SENT: 229 Entering Passive Mode (|||58317|)
+
+[ INFO] 2022-03-08 09:54:41,148 [anonymous] [0:0:0:0:0:0:0:1] RECEIVED: LIST
+[ WARN] 2022-03-08 09:54:41,159 [anonymous] [0:0:0:0:0:0:0:1] Releasing unreserved passive port: 58317
+[ INFO] 2022-03-08 09:54:41,159 [anonymous] [0:0:0:0:0:0:0:1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 09:54:41,159 [anonymous] [0:0:0:0:0:0:0:1] SENT: 226 Closing data connection.
+
+[ INFO] 2022-03-08 09:57:21,532 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 09:57:21,533 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 09:57:21,533 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 09:57:21,535 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 09:57:21,536 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 09:57:21,536 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 09:57:21,537 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 09:57:21,537 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 09:57:21,537 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 09:57:21,538 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 09:57:21,539 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 09:57:21,539 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 09:57:21,540 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 09:57:21,541 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58374|)
+
+[ INFO] 2022-03-08 09:57:21,541 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 09:57:21,541 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58374
+[ INFO] 2022-03-08 09:57:21,542 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58375|)
+
+[ INFO] 2022-03-08 09:57:21,544 [anonymous] [127.0.0.1] RECEIVED: RETR ServiceInversion.class
+[ INFO] 2022-03-08 09:57:21,916 [anonymous] [127.0.0.1] File downloaded /slim/ServiceInversion.class
+[ WARN] 2022-03-08 09:57:21,917 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58375
+[ INFO] 2022-03-08 09:57:21,917 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 09:57:21,918 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 09:57:22,204 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 09:57:22,205 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 09:57:22,205 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 09:59:14,167 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 09:59:14,168 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 09:59:14,169 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 09:59:14,170 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 09:59:14,174 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 09:59:14,174 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 09:59:14,175 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 09:59:14,175 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 09:59:14,176 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 09:59:14,177 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 09:59:14,177 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 09:59:14,178 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 09:59:14,178 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 09:59:14,179 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58403|)
+
+[ INFO] 2022-03-08 09:59:14,181 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 09:59:14,181 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58403
+[ INFO] 2022-03-08 09:59:14,181 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58404|)
+
+[ INFO] 2022-03-08 09:59:14,184 [anonymous] [127.0.0.1] RECEIVED: RETR ServiceInversion.class
+[ INFO] 2022-03-08 09:59:14,561 [anonymous] [127.0.0.1] File downloaded /slim/ServiceInversion.class
+[ WARN] 2022-03-08 09:59:14,561 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58404
+[ INFO] 2022-03-08 09:59:14,561 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 09:59:14,561 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 09:59:14,835 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 09:59:14,836 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 09:59:14,836 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 09:59:42,099 [anonymous] [0:0:0:0:0:0:0:1] IDLE
+[ INFO] 2022-03-08 09:59:42,099 [anonymous] [0:0:0:0:0:0:0:1] Session idle, closing
+[ INFO] 2022-03-08 09:59:42,100 [anonymous] [0:0:0:0:0:0:0:1] CLOSED
+[ INFO] 2022-03-08 10:00:24,291 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 10:00:24,291 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 10:00:24,293 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 10:00:24,294 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 10:00:24,295 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 10:00:24,295 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 10:00:24,295 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 10:00:24,295 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 10:00:24,296 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 10:00:24,297 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 10:00:24,297 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 10:00:24,298 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 10:00:24,298 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 10:00:24,300 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58422|)
+
+[ INFO] 2022-03-08 10:00:24,300 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 10:00:24,300 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58422
+[ INFO] 2022-03-08 10:00:24,302 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58423|)
+
+[ INFO] 2022-03-08 10:00:24,305 [anonymous] [127.0.0.1] RECEIVED: RETR ServiceInversion.class
+[ INFO] 2022-03-08 10:00:24,677 [anonymous] [127.0.0.1] File downloaded /slim/ServiceInversion.class
+[ WARN] 2022-03-08 10:00:24,678 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58423
+[ INFO] 2022-03-08 10:00:24,679 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 10:00:24,679 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 10:00:24,680 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 10:00:24,682 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 10:00:24,682 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 10:01:23,029 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 10:01:23,030 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 10:01:23,031 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 10:01:23,032 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 10:01:23,032 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 10:01:23,032 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 10:01:23,033 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 10:01:23,033 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 10:01:23,034 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 10:01:23,034 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 10:01:23,035 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 10:01:23,036 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 10:01:23,037 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 10:01:23,038 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58441|)
+
+[ INFO] 2022-03-08 10:01:23,038 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 10:01:23,038 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58441
+[ INFO] 2022-03-08 10:01:23,039 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||58442|)
+
+[ INFO] 2022-03-08 10:01:23,041 [anonymous] [127.0.0.1] RECEIVED: RETR ServiceInversion.class
+[ INFO] 2022-03-08 10:01:23,419 [anonymous] [127.0.0.1] File downloaded /slim/ServiceInversion.class
+[ WARN] 2022-03-08 10:01:23,420 [anonymous] [127.0.0.1] Releasing unreserved passive port: 58442
+[ INFO] 2022-03-08 10:01:23,420 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 10:01:23,421 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 10:01:23,421 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 10:01:23,423 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 10:01:23,424 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 11:31:01,409 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 11:31:01,411 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 11:31:01,412 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 11:31:01,413 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 11:31:01,414 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 11:31:01,414 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 11:31:01,415 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 11:31:01,416 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 11:31:01,416 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 11:31:01,416 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 11:31:01,417 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 11:31:01,417 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 11:31:01,419 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 11:31:01,420 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63500|)
+
+[ INFO] 2022-03-08 11:31:01,420 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 11:31:01,420 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63500
+[ INFO] 2022-03-08 11:31:01,420 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63501|)
+
+[ INFO] 2022-03-08 11:31:01,423 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-08 11:31:01,661 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-08 11:31:01,662 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63501
+[ INFO] 2022-03-08 11:31:01,663 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 11:31:01,664 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 11:31:01,664 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 11:31:01,666 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 11:31:01,666 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 11:37:08,786 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 11:37:08,787 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 11:37:08,788 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 11:37:08,789 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 11:37:08,790 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 11:37:08,790 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 11:37:08,791 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 11:37:08,791 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 11:37:08,791 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 11:37:08,792 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 11:37:08,792 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 11:37:08,793 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 11:37:08,793 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 11:37:08,794 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63561|)
+
+[ INFO] 2022-03-08 11:37:08,795 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 11:37:08,795 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63561
+[ INFO] 2022-03-08 11:37:08,796 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63562|)
+
+[ INFO] 2022-03-08 11:37:08,799 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-08 11:37:09,107 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-08 11:37:09,108 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63562
+[ INFO] 2022-03-08 11:37:09,108 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 11:37:09,108 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 11:37:09,110 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 11:37:09,111 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 11:37:09,111 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 11:48:26,512 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 11:48:26,513 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 11:48:26,515 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 11:48:26,515 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 11:48:26,516 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 11:48:26,517 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 11:48:26,517 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 11:48:26,517 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 11:48:26,517 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 11:48:26,519 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 11:48:26,519 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 11:48:26,519 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 11:48:26,520 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 11:48:26,521 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63708|)
+
+[ INFO] 2022-03-08 11:48:26,521 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 11:48:26,521 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63708
+[ INFO] 2022-03-08 11:48:26,522 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63709|)
+
+[ INFO] 2022-03-08 11:48:26,525 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-08 11:48:26,834 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-08 11:48:26,835 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63709
+[ INFO] 2022-03-08 11:48:26,836 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 11:48:26,836 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 11:48:26,837 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 11:48:26,839 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 11:48:26,840 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-08 12:00:24,477 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-08 12:00:24,478 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-08 12:00:24,478 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-08 12:00:24,479 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-08 12:00:24,480 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-08 12:00:24,480 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-08 12:00:24,480 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-08 12:00:24,481 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-08 12:00:24,481 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-08 12:00:24,481 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-08 12:00:24,481 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-08 12:00:24,482 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-08 12:00:24,482 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-08 12:00:24,483 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63804|)
+
+[ INFO] 2022-03-08 12:00:24,483 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-08 12:00:24,483 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63804
+[ INFO] 2022-03-08 12:00:24,484 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||63805|)
+
+[ INFO] 2022-03-08 12:00:24,485 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-08 12:00:24,796 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-08 12:00:24,797 [anonymous] [127.0.0.1] Releasing unreserved passive port: 63805
+[ INFO] 2022-03-08 12:00:24,797 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-08 12:00:24,797 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-08 12:00:24,798 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-08 12:00:24,800 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-08 12:00:24,800 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-12 23:48:03,885 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@769467: display name [org.springframework.context.support.FileSystemXmlApplicationContext@769467]; startup date [Sat Mar 12 23:48:03 CET 2022]; root of context hierarchy
+[ INFO] 2022-03-12 23:48:04,015 [] [] Loading XML bean definitions from file [C:\Users\slimb\OneDrive\Documents\apache-ftpserver-1.1.0\apache-ftpserver-1.1.0\res\conf\ftpd-typical.xml]
+[ INFO] 2022-03-12 23:48:06,068 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@769467]: org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1
+[ INFO] 2022-03-12 23:48:06,093 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@81cdd1: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2022-03-12 23:48:06,572 [] [] FTP server started
+[ INFO] 2022-03-12 23:49:31,441 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-12 23:49:31,453 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-12 23:49:31,471 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-12 23:49:31,476 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-12 23:49:31,481 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-12 23:49:31,483 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-12 23:49:31,493 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-12 23:49:31,493 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-12 23:49:31,494 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-12 23:49:31,496 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-12 23:49:31,497 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-12 23:49:31,503 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-12 23:49:31,503 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-12 23:49:31,516 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||56647|)
+
+[ INFO] 2022-03-12 23:49:31,516 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-12 23:49:31,517 [anonymous] [127.0.0.1] Releasing unreserved passive port: 56647
+[ INFO] 2022-03-12 23:49:31,518 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||56648|)
+
+[ INFO] 2022-03-12 23:49:31,522 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-12 23:49:31,836 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-12 23:49:31,840 [anonymous] [127.0.0.1] Releasing unreserved passive port: 56648
+[ INFO] 2022-03-12 23:49:31,841 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-12 23:49:31,841 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-12 23:49:31,842 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-12 23:49:31,844 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-12 23:49:31,845 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2022-03-12 23:50:24,726 [] [127.0.0.1] CREATED
+[ INFO] 2022-03-12 23:50:24,727 [] [127.0.0.1] OPENED
+[ INFO] 2022-03-12 23:50:24,729 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2022-03-12 23:50:24,729 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2022-03-12 23:50:24,730 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2022-03-12 23:50:24,730 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2022-03-12 23:50:24,731 [anonymous] [127.0.0.1] Anonymous login success - Java1.8.0_282@
+[ INFO] 2022-03-12 23:50:24,731 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2022-03-12 23:50:24,731 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2022-03-12 23:50:24,732 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2022-03-12 23:50:24,732 [anonymous] [127.0.0.1] RECEIVED: CWD slim
+[ INFO] 2022-03-12 23:50:24,733 [anonymous] [127.0.0.1] SENT: 250 Directory changed to /slim
+
+[ INFO] 2022-03-12 23:50:24,733 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2022-03-12 23:50:24,734 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||56666|)
+
+[ INFO] 2022-03-12 23:50:24,735 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2022-03-12 23:50:24,735 [anonymous] [127.0.0.1] Releasing unreserved passive port: 56666
+[ INFO] 2022-03-12 23:50:24,736 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||56667|)
+
+[ INFO] 2022-03-12 23:50:24,737 [anonymous] [127.0.0.1] RECEIVED: RETR Bonjour.class
+[ INFO] 2022-03-12 23:50:25,041 [anonymous] [127.0.0.1] File downloaded /slim/Bonjour.class
+[ WARN] 2022-03-12 23:50:25,042 [anonymous] [127.0.0.1] Releasing unreserved passive port: 56667
+[ INFO] 2022-03-12 23:50:25,042 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2022-03-12 23:50:25,042 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2022-03-12 23:50:25,042 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2022-03-12 23:50:25,043 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2022-03-12 23:50:25,044 [anonymous] [127.0.0.1] CLOSED
